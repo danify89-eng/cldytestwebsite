@@ -1,1 +1,5 @@
 
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zzzmigration/public_html
+    - /bin/cp -R test.html $DEPLOYPATH
